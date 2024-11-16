@@ -1,0 +1,189 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #0078d7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main h2 {
+    color: #0078d7;
+}
+
+/* Sección de beneficios */
+.beneficios ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+}
+
+.beneficios li {
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.beneficios li::before {
+    content: "✔";
+    color: #0078d7;
+    position: absolute;
+    left: 0;
+}
+
+/* Testimonios */
+.testimonios blockquote {
+    margin: 1rem 0;
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #0078d7;
+    padding-left: 1rem;
+}
+
+/* Novedades */
+.novedades article {
+    margin: 1rem auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+/* Servicios destacados */
+.servicios-destacados {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.servicios-destacados .servicio img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
+}
+
+.servicios-destacados .servicio p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Llamado a la acción */
+.cta {
+    text-align: center;
+    background-color: #0078d7;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.cta a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+/* Información de contacto */
+.info-contacto {
+    margin: 2rem 0;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.info-contacto p {
+    margin: 0.5rem 0;
+}
+
+.info-contacto a {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 80%;
+    max-width: 500px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+form button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
